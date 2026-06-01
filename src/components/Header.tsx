@@ -25,11 +25,7 @@ export function Header() {
     <header className="sticky top-0 z-40 w-full border-b border-border/60 bg-background/85 backdrop-blur-lg">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between container-px">
         <Link href="/" className="flex items-center gap-2.5">
-          <Image 
-            src={logoImg} 
-            alt="Al Toufeer Logo" 
-            className="h-10 w-auto object-contain" 
-          />
+          <Image src={logoImg} alt="Al Toufeer Logo" className="h-10 w-auto object-contain" />
           <div className="leading-tight">
             <div className="font-display text-base font-bold text-navy">Al Toufeer</div>
             <div className="text-[10px] font-medium uppercase tracking-wider text-muted-foreground">

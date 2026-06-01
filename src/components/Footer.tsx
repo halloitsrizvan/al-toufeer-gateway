@@ -9,11 +9,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 container-px py-16 md:grid-cols-2 lg:grid-cols-4">
         <div>
           <div className="flex items-center gap-2.5">
-            <Image 
-              src={logoImg} 
-              alt="Al Toufeer Logo" 
-              className="h-10 w-auto object-contain" 
-            />
+            <Image src={logoImg} alt="Al Toufeer Logo" className="h-10 w-auto object-contain" />
             <div className="leading-tight">
               <div className="font-display text-base font-bold">Al Toufeer</div>
               <div className="text-[10px] uppercase tracking-wider text-white/60">
