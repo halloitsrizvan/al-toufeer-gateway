@@ -63,7 +63,7 @@ export default function BusinessSetupPage() {
       >
         <Link
           href="/contact"
-          className="inline-flex items-center gap-2 rounded-md bg-[var(--gradient-cta)] px-6 py-3 text-sm font-semibold text-white shadow-glow"
+          className="inline-flex items-center gap-2 rounded-md bg-gradient-cta px-6 py-3 text-sm font-semibold text-white shadow-glow"
         >
           Get Free Consultation <ArrowRight className="h-4 w-4" />
         </Link>
@@ -106,7 +106,7 @@ export default function BusinessSetupPage() {
               ))}
             </ul>
           </div>
-          <div className="rounded-xl bg-[var(--gradient-corporate)] p-8 text-white shadow-elegant">
+          <div className="rounded-xl bg-gradient-corporate p-8 text-white shadow-elegant">
             <h3 className="font-display text-2xl font-bold">Formation Process</h3>
             <p className="mt-2 text-sm text-white/80">Our step-by-step process:</p>
             <ol className="mt-6 space-y-4">

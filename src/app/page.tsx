@@ -137,13 +137,13 @@ export default function HomePage() {
           className="absolute inset-0 h-full w-full object-cover opacity-40"
           priority
         />
-        <div className="absolute inset-0 bg-[var(--gradient-hero)]" />
-        <div className="relative mx-auto max-w-7xl container-px py-24 md:py-32">
+        <div className="absolute inset-0 bg-gradient-hero" />
+        <div className="relative mx-auto max-w-7xl container-px py-24 md:py-24">
           <div className="max-w-3xl">
             <span className="inline-flex items-center gap-2 rounded-full border border-brand/30 bg-brand/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-brand">
               <Star className="h-3 w-3 fill-brand" /> Trusted in Al Ain · Abu Dhabi
             </span>
-            <h1 className="mt-5 font-display text-4xl font-bold leading-tight sm:text-5xl md:text-6xl lg:text-7xl">
+            <h1 className="mt-5 font-display text-4xl font-bold leading-tight sm:text-5xl md:text-6xl lg:text-6xl">
               Your Trusted Business & Government Service Partner in{" "}
               <span className="text-brand">Al Ain</span>
             </h1>
@@ -154,12 +154,12 @@ export default function HomePage() {
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 rounded-md bg-[var(--gradient-cta)] px-6 py-3.5 text-sm font-semibold text-white shadow-glow transition-transform hover:-translate-y-0.5"
+                className="inline-flex items-center gap-2 rounded-md bg-gradient-cta px-6 py-3.5 text-sm font-semibold text-white shadow-glow transition-transform hover:-translate-y-0.5"
               >
                 Get Free Consultation <ArrowRight className="h-4 w-4" />
               </Link>
               <a
-                href="https://wa.me/971500000000"
+                href="https://wa.me/971507769415"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-md border border-white/30 bg-white/10 px-6 py-3.5 text-sm font-semibold text-white backdrop-blur transition-colors hover:bg-white/20"
@@ -202,7 +202,7 @@ export default function HomePage() {
                 key={w.title}
                 className="group rounded-xl border border-border bg-card p-6 shadow-soft transition-all hover:-translate-y-1 hover:shadow-elegant"
               >
-                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-[var(--gradient-corporate)] text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-corporate text-white">
                   <w.icon className="h-6 w-6" />
                 </div>
                 <h3 className="mt-4 font-display text-lg font-semibold text-navy">{w.title}</h3>

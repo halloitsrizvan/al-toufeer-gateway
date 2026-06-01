@@ -1,5 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import logoImg from "@/assets/logo.png";
 
 export function Footer() {
   return (
@@ -7,9 +9,11 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 container-px py-16 md:grid-cols-2 lg:grid-cols-4">
         <div>
           <div className="flex items-center gap-2.5">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[var(--gradient-cta)] font-display text-lg font-bold">
-              AT
-            </div>
+            <Image 
+              src={logoImg} 
+              alt="Al Toufeer Logo" 
+              className="h-10 w-auto object-contain" 
+            />
             <div className="leading-tight">
               <div className="font-display text-base font-bold">Al Toufeer</div>
               <div className="text-[10px] uppercase tracking-wider text-white/60">
@@ -88,7 +92,7 @@ export function Footer() {
               <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-brand" /> Al Ain, Abu Dhabi, UAE
             </li>
             <li className="flex items-center gap-2">
-              <Phone className="h-4 w-4 text-brand" /> +971 50 000 0000
+              <Phone className="h-4 w-4 text-brand" /> +971 50 776 9415
             </li>
             <li className="flex items-center gap-2">
               <Mail className="h-4 w-4 text-brand" /> info@altoufeer.ae

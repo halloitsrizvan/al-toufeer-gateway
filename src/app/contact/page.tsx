@@ -1,4 +1,4 @@
-import ContactClient from "./ContactClient";
+import ContactClient from "@/app/contact/ContactClient";
 
 export const metadata = {
   title: "Contact Al Toufeer | Business Services in Al Ain",

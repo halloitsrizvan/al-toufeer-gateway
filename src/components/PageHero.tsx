@@ -12,7 +12,7 @@ export function PageHero({
   children?: ReactNode;
 }) {
   return (
-    <section className="relative overflow-hidden bg-[var(--gradient-corporate)] py-20 md:py-28">
+    <section className="relative overflow-hidden bg-gradient-corporate py-20 md:py-28">
       <div
         className="absolute inset-0 opacity-30"
         style={{

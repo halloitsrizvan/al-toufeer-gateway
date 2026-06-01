@@ -59,7 +59,7 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="grid gap-5 sm:grid-cols-2">
-            <div className="rounded-xl bg-[var(--gradient-corporate)] p-6 text-white shadow-elegant">
+            <div className="rounded-xl bg-gradient-corporate p-6 text-white shadow-elegant">
               <Target className="h-8 w-8 text-brand" />
               <h3 className="mt-4 font-display text-xl font-bold">Our Mission</h3>
               <p className="mt-2 text-sm text-white/85">

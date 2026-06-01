@@ -123,7 +123,7 @@ export default function ContactClient() {
                   <div className="sm:col-span-2">
                     <button
                       type="submit"
-                      className="inline-flex w-full items-center justify-center gap-2 rounded-md bg-[var(--gradient-cta)] px-6 py-3 text-sm font-semibold text-white shadow-soft transition-transform hover:-translate-y-0.5 hover:shadow-glow sm:w-auto"
+                      className="inline-flex w-full items-center justify-center gap-2 rounded-md bg-gradient-cta px-6 py-3 text-sm font-semibold text-white shadow-soft transition-transform hover:-translate-y-0.5 hover:shadow-glow sm:w-auto"
                     >
                       Send Message <Send className="h-4 w-4" />
                     </button>
@@ -135,15 +135,15 @@ export default function ContactClient() {
 
           {/* Sidebar */}
           <div className="space-y-5 lg:col-span-2">
-            <div className="rounded-2xl bg-[var(--gradient-corporate)] p-7 text-white shadow-elegant">
+            <div className="rounded-2xl bg-gradient-corporate p-7 text-white shadow-elegant">
               <h3 className="font-display text-xl font-bold">Quick Contact</h3>
               <div className="mt-5 space-y-4 text-sm">
                 <Row icon={MapPin} title="Visit Us" value="Al Ain, Abu Dhabi, UAE" />
                 <Row
                   icon={Phone}
                   title="Call Us"
-                  value="+971 50 000 0000"
-                  href="tel:+971500000000"
+                  value="+971 50 776 9415"
+                  href="tel:+971507769415"
                 />
                 <Row
                   icon={Mail}
@@ -154,7 +154,7 @@ export default function ContactClient() {
                 <Row icon={Clock} title="Business Hours" value="Sat–Thu, 9:00 AM – 9:00 PM" />
               </div>
               <a
-                href="https://wa.me/971500000000"
+                href="https://wa.me/971507769415"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-md bg-[#25D366] px-4 py-3 text-sm font-semibold text-white transition-transform hover:-translate-y-0.5"

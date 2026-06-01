@@ -107,7 +107,7 @@ export default function ServicesPage() {
               key={c.title}
               className="group flex flex-col rounded-xl border border-border bg-card p-7 shadow-soft transition-all hover:-translate-y-1 hover:shadow-elegant"
             >
-              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-[var(--gradient-corporate)] text-white">
+              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-corporate text-white">
                 <c.icon className="h-6 w-6" />
               </div>
               <h3 className="mt-5 font-display text-xl font-bold text-navy">{c.title}</h3>

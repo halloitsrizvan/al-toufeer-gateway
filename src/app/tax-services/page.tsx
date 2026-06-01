@@ -58,7 +58,7 @@ export default function TaxPage() {
                 key={s.title}
                 className="group rounded-xl border border-border bg-card p-6 shadow-soft transition-all hover:-translate-y-1 hover:shadow-elegant"
               >
-                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-[var(--gradient-corporate)] text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-corporate text-white">
                   <s.icon className="h-6 w-6" />
                 </div>
                 <h3 className="mt-4 font-display text-lg font-semibold text-navy">{s.title}</h3>

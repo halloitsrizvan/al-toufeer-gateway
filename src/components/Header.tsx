@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
+import logoImg from "@/assets/logo.png";
 import { usePathname } from "next/navigation";
 import { Menu, X, Phone } from "lucide-react";
 
@@ -23,9 +25,11 @@ export function Header() {
     <header className="sticky top-0 z-40 w-full border-b border-border/60 bg-background/85 backdrop-blur-lg">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between container-px">
         <Link href="/" className="flex items-center gap-2.5">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[var(--gradient-corporate)] font-display text-lg font-bold text-white shadow-soft">
-            AT
-          </div>
+          <Image 
+            src={logoImg} 
+            alt="Al Toufeer Logo" 
+            className="h-10 w-auto object-contain" 
+          />
           <div className="leading-tight">
             <div className="font-display text-base font-bold text-navy">Al Toufeer</div>
             <div className="text-[10px] font-medium uppercase tracking-wider text-muted-foreground">
@@ -53,14 +57,14 @@ export function Header() {
 
         <div className="hidden items-center gap-3 lg:flex">
           <a
-            href="tel:+971500000000"
+            href="tel:+971507769415"
             className="flex items-center gap-2 text-sm font-semibold text-navy hover:text-teal"
           >
             <Phone className="h-4 w-4" /> Call Us
           </a>
           <Link
             href="/contact"
-            className="rounded-md bg-[var(--gradient-cta)] px-4 py-2 text-sm font-semibold text-white shadow-soft transition-transform hover:-translate-y-0.5 hover:shadow-glow"
+            className="rounded-md bg-gradient-cta px-4 py-2 text-sm font-semibold text-white shadow-soft transition-transform hover:-translate-y-0.5 hover:shadow-glow"
           >
             Free Consultation
           </Link>
@@ -92,7 +96,7 @@ export function Header() {
             <Link
               href="/contact"
               onClick={() => setOpen(false)}
-              className="mt-2 rounded-md bg-[var(--gradient-cta)] px-4 py-2.5 text-center text-sm font-semibold text-white"
+              className="mt-2 rounded-md bg-gradient-cta px-4 py-2.5 text-center text-sm font-semibold text-white"
             >
               Free Consultation
             </Link>
